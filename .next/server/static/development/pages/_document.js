@@ -94,9 +94,9 @@ module.exports =
 /******/ ({
 
 /***/ "./node_modules/next/dist/pages/_document.js":
-/*!*******************************************************************************************************************!*\
-  !*** C:/Users/chris/OneDrive/Desktop/PersonalProjects/nextjs-portfolio/node_modules/next/dist/pages/_document.js ***!
-  \*******************************************************************************************************************/
+/*!***************************************************!*\
+  !*** ./node_modules/next/dist/pages/_document.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -106,9 +106,9 @@ module.exports = __webpack_require__(/*! next/document */ "next/document")
 /***/ }),
 
 /***/ 2:
-/*!*************************************************************************************************************************!*\
-  !*** multi C:/Users/chris/OneDrive/Desktop/PersonalProjects/nextjs-portfolio/node_modules/next/dist/pages/_document.js ***!
-  \*************************************************************************************************************************/
+/*!*********************************************************!*\
+  !*** multi ./node_modules/next/dist/pages/_document.js ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
