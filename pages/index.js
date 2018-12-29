@@ -1,6 +1,6 @@
 const Index = () => {
     return (
-        <h1>I am the Index page.</h1>
+        <h1>You landed here. Congratulations.</h1>
     )
 }
 
