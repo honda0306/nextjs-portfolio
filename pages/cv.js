@@ -2,11 +2,11 @@ import React from 'react';
 
 
 
-class Index extends React.Component {
+class CV extends React.Component {
     render() {
         return (
             <div>
-                <h1>Index</h1>
+                <h1>CV</h1>
                 <a href="/">Home</a>
                 <a href="/blog">Blog</a>
                 <a href="/about">About</a>
@@ -17,4 +17,4 @@ class Index extends React.Component {
     }
 }
 
-export default Index;
+export default CV;

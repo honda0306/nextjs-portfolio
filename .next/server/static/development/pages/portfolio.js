@@ -88,15 +88,15 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/portfolio.js":
+/*!****************************!*\
+  !*** ./pages/portfolio.js ***!
+  \****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -104,7 +104,7 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\chris\\OneDrive\\Desktop\\PersonalProjects\\nextjs-portfolio\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\chris\\OneDrive\\Desktop\\PersonalProjects\\nextjs-portfolio\\pages\\portfolio.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -124,51 +124,88 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
- // const Index = () => {
-//     return (
-//         <h1>You landed here. Congratulations.</h1>
-//     )
-// }
 
-var Index =
+
+var Portfolio =
 /*#__PURE__*/
 function (_React$Component) {
-  _inherits(Index, _React$Component);
+  _inherits(Portfolio, _React$Component);
 
-  function Index() {
-    _classCallCheck(this, Index);
+  function Portfolio() {
+    _classCallCheck(this, Portfolio);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(Index).apply(this, arguments));
+    return _possibleConstructorReturn(this, _getPrototypeOf(Portfolio).apply(this, arguments));
   }
 
-  _createClass(Index, [{
+  _createClass(Portfolio, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        },
+        __self: this
+      }, "Portfolio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "/",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        },
+        __self: this
+      }, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "/blog",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        },
+        __self: this
+      }, "Blog"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "/about",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 12
         },
         __self: this
-      }, "You landed here. Congratulations.");
+      }, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "/cv",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }, "CV"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "/portfolio",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, "Portfolio"));
     }
   }]);
 
-  return Index;
+  return Portfolio;
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony default export */ __webpack_exports__["default"] = (Portfolio);
 
 /***/ }),
 
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 7:
+/*!**********************************!*\
+  !*** multi ./pages/portfolio.js ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! ./pages/portfolio.js */"./pages/portfolio.js");
 
 
 /***/ }),
@@ -185,4 +222,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=portfolio.js.map
